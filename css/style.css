@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-head {
-  text-align: center;
-    display: block;
-      background-color: purple;
-      color: white;
+body {
+  background-color: brown;
 }
 
 nav {
   font-family: 'Anton', sans-serif;
   color: orange;
+  text-align: center;
+  display: block;
+}
+
+.description {
+  font-family: Aerial, sans-serif;
+  color: blue;
+  text-align: center;
+  display: block;
 }
 
 input,
