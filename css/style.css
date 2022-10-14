@@ -2,9 +2,13 @@
 head {
   text-align: center;
     display: block;
-    font-family: 'Anton', sans-serif;
       background-color: purple;
       color: white;
+}
+
+nav {
+  font-family: 'Anton', sans-serif;
+  color: orange;
 }
 
 input,
