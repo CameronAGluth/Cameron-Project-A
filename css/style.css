@@ -17,15 +17,12 @@ nav {
   display: block;
 }
 
-p.sign-up {
-    width: auto;
-    height: auto;
-    font-weight: bold;
-    font-family: Helvetica;
-    text-align: center;
-    position: relative;
-    bottom: 200px;
-    left: 70%;
+
+
+ol {
+  text-align: center;
+  list-style: none;
+  color: yellow;
 }
 
 #input-age-verification label {
