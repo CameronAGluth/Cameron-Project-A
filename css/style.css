@@ -17,6 +17,27 @@ nav {
   display: block;
 }
 
+p.sign-up {
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    left: 70%;
+}
+
+#input-age-verification label {
+  font-size: 0.825em;
+  display: inline;
+}
+
+#input-age-verification input {
+  box-sizing: content-box;
+  width: auto;
+}
+
 input,
 label {
     margin: .4rem 0;
