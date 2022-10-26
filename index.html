@@ -20,17 +20,19 @@
     <h3>Must be 18 or older to apply</h3>
   </section>
     <ol>
-      <li id="input-email">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" pattern="^.+@.+$" >
-      </li>
-      <li id="input-age-verification">
-        <input type="checkbox" id="age-verification" name="age-verification" value="18" >
-        <label for="age-verification">I am over 18 years old</label>
-      </li>
-      <li id="input-submit">
-        <input type="submit" name="submit" id="submit" value="Subscribe" >
-      </li>
+      <form autocomplete="on">
+        <li id="input-email">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" pattern="^.+@.+$" required >
+        </li>
+        <li id="input-age-verification">
+          <input type="checkbox" id="age-verification" name="age-verification" value="18" required >
+          <label for="age-verification">I am over 18 years old</label>
+        </li>
+        <li id="input-submit">
+          <input type="submit" name="submit" id="submit" value="Subscribe" >
+        </li>
+      </form>
     </ol>
 </body>
 </html>
