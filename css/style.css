@@ -10,6 +10,10 @@ nav {
   display: block;
 }
 
+h1 {
+  font-size: 25px;
+}
+
 .description {
   font-family: Aerial, sans-serif;
   color: aquamarine;
@@ -19,7 +23,7 @@ nav {
 
 .image-filter{
   margin: auto;
-  width: 350px;
+  width: 100px;
 }
 
 ol {
