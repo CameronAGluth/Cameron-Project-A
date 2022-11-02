@@ -48,3 +48,25 @@ label {
     width: 90%;
     height: 90%;
 }
+
+@media (min-width: 30em) {
+  #input-submit {
+    box-sizing: content-box;
+    width: 25em;
+    margin: auto;
+  }
+
+  #input-email {
+    box-sizing: content-box;
+    width: 25em;
+    margin: auto;
+  }
+}
+
+form {
+  background-color: Navy;
+  height: 150px;
+  width: 500px;
+  margin: auto;
+  padding: 30px;
+}
