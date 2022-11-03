@@ -19,6 +19,7 @@ h1 {
   color: aquamarine;
   text-align: center;
   display: block;
+  padding: 2em;
 }
 
 .image-filter{
