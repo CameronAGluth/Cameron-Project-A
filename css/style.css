@@ -30,6 +30,11 @@ ol {
   text-align: center;
   list-style: none;
   color: yellow;
+  margin: .4rem 0;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  box-sizing: content-box;
 }
 
 #input-age-verification label {
@@ -46,7 +51,6 @@ input,
 label {
     margin: .4rem 0;
     width: 90%;
-    height: 90%;
 }
 
 @media (min-width: 30em) {
@@ -61,12 +65,19 @@ label {
     width: 25em;
     margin: auto;
   }
+
+  #input-age-verification {
+    padding: 15px;
+  }
+  form {
+    width: 50em;
+  }
 }
 
 form {
   background-color: Navy;
-  height: 150px;
-  width: 500px;
+  height: 10em;
+  width: 27em;
   margin: auto;
-  padding: 30px;
+  padding: 3em;
 }
