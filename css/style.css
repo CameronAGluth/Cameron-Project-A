@@ -27,16 +27,6 @@ h1 {
   width: 100px;
 }
 
-ol {
-  text-align: center;
-  list-style: none;
-  color: yellow;
-  margin: 90%;
-  width: 90%;
-  margin: auto;
-  box-sizing: content-box;
-}
-
 #input-age-verification label {
   font-size: 0.825em;
   display: inline;
@@ -59,6 +49,10 @@ form {
   width: 100%;
   margin: auto;
   padding: 3em;
+  text-align: center;
+  list-style: none;
+  color: yellow;
+  box-sizing: content-box;
 }
 
 @media screen and (min-width: 350px) {

@@ -21,21 +21,19 @@
         <h3>Final pay: $24.00/hour (Website Categorization); $30.00/hour (Malware Categorization)</h3>
         <h3>Must be 18 or older to apply</h3>
       </section>
-        <ol>
-          <form autocomplete="on" name="form" method="get" action="#null">
-            <li id="input-email">
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" pattern="^.+@.+$" required >
-            </li>
-            <li id="input-age-verification">
-              <input type="checkbox" id="age-verification" name="age-verification" value="18" required >
-              <label for="age-verification">I am over 18 years old</label>
-            </li>
-            <li id="input-submit">
-              <input type="submit" name="submit" id="submit" value="Apply" onsubmit="return validate()" >
-            </li>
-          </form>
-        </ol>
+        <form autocomplete="on" name="form" method="get" action="#null">
+          <li id="input-email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" pattern="^.+@.+$" required >
+          </li>
+          <li id="input-age-verification">
+            <input type="checkbox" id="age-verification" name="age-verification" value="18" required >
+            <label for="age-verification">I am over 18 years old</label>
+          </li>
+          <li id="input-submit">
+            <input type="submit" name="submit" id="submit" value="Apply" onsubmit="return validate()" >
+          </li>
+        </form>
     </body>
 
 </html>
