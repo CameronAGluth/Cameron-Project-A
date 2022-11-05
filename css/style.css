@@ -31,7 +31,7 @@ ol {
   text-align: center;
   list-style: none;
   color: yellow;
-  margin: .4rem 0;
+  margin: 90%;
   width: 90%;
   margin: auto;
   box-sizing: content-box;
@@ -49,7 +49,7 @@ ol {
 
 input,
 label {
-    margin: .4rem 0;
+    margin: auto;
     width: 90%;
 }
 
