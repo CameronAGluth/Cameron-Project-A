@@ -14,6 +14,14 @@ h1 {
   font-size: 34px;
 }
 
+h2 {
+  font-size: 21px;
+}
+
+.details {
+  font-size: 26px;
+}
+
 .description {
   font-family: Aerial, sans-serif;
   font-size: 21px;
@@ -64,13 +72,20 @@ label {
 form {
   background-color: Navy;
   height: 10em;
-  width: 100%;
   margin: auto;
   padding: 3em;
   text-align: center;
-  list-style: none;
   color: yellow;
+  font-size: 21px;
   box-sizing: content-box;
+}
+
+ol {
+  list-style: none;
+}
+
+ul {
+  list-style: circle;
 }
 
 @media screen and (min-width: 350px) {
@@ -91,7 +106,4 @@ form {
   #input-age-verification {
     padding: 15px;
   }
-}
-form {
-  width: 50em;
 }
