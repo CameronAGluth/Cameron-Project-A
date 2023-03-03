@@ -56,9 +56,6 @@ h2 {
 #input-age-verification label {
   font-size: 0.825em;
   display: inline;
-}
-
-#input-age-verification input {
   box-sizing: content-box;
   width: auto;
 }
@@ -66,7 +63,9 @@ h2 {
 input,
 label {
     margin: auto;
-    width: 90%;
+    width: 39%;
+    padding: 12px 20px;
+    display: block;
 }
 
 form {
@@ -107,3 +106,6 @@ ul {
     padding: 15px;
   }
 }
+
+input.checkbox {
+  transform: scale(2);
