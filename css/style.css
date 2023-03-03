@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body {
-  background-color: brown;
+  background-color: khaki;
 }
 
 nav {
@@ -11,20 +11,38 @@ nav {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 34px;
 }
 
 .description {
   font-family: Aerial, sans-serif;
-  color: aquamarine;
+  font-size: 21px;
+  color: darkmagenta;
   text-align: center;
   display: block;
   padding: 2em;
 }
 
-.image-filter{
+.notes {
+  font-family: Aerial, sans-serif;
+  font-size: 21px;
+  color: crimson;
+  text-align: left;
+  list-style: circle;
+  display: block;
+  padding: 2em;
+}
+
+.image-party{
   margin: auto;
-  width: 100px;
+  width: 200px;
+}
+
+#input-employee-verification label {
+  font-size: 0.825em;
+  display: inline;
+  box-sizing: content-box;
+  width: auto;
 }
 
 #input-age-verification label {
@@ -64,6 +82,10 @@ form {
   #input-email {
     box-sizing: content-box;
     margin: auto;
+  }
+
+  #input-employee-verification {
+    padding: 15px;
   }
 
   #input-age-verification {
