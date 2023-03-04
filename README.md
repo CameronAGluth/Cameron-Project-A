@@ -1,2 +1,2 @@
 # Cameron-Project-A
-First Project for ITMD-362
+First Project for ITMD-362. This project features in in invitational form for a company's annual employee party. The page introduces the reader the opening summary of the event. A picture of the establishment (Midway Landing Bowling Alley) is shown below. Under the image, details about the party are listed. Below the unordered list containing the details, a form can be found. All fields are required. The reader must enter their email and then is required to verify that they are an employee of the company (Webmonitor LLC). The reader is also required to be 21 years of age or older to submit because the party would have substantial alcohol use.
