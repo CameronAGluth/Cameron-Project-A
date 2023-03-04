@@ -46,19 +46,20 @@ h2 {
   width: 200px;
 }
 
-#input-employee-verification label {
+#employee-verification {
   font-size: 0.825em;
   display: inline;
   box-sizing: content-box;
   width: auto;
 }
 
-#input-age-verification label {
+#age-verification {
   font-size: 0.825em;
   display: inline;
   box-sizing: content-box;
   width: auto;
 }
+
 
 #submit {
   font-size: 0.825em;
@@ -67,18 +68,17 @@ h2 {
   border: none;
 }
 
+label {
+  margin: auto;
+  width: 39%;
+  padding: 12px 20px;
+}
+
 input {
     margin: auto;
     width: 39%;
     padding: 12px 20px;
     display: block;
-}
-
-label {
-  margin: auto;
-  width: 39%;
-  padding: 12px 20px;
-  display: block;
 }
 
 form {
