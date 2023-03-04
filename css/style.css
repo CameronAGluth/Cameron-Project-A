@@ -60,12 +60,25 @@ h2 {
   width: auto;
 }
 
-input,
-label {
+#submit {
+  font-size: 0.825em;
+  display: inline;
+  box-sizing: content-box;
+  border: none;
+}
+
+input {
     margin: auto;
     width: 39%;
     padding: 12px 20px;
     display: block;
+}
+
+label {
+  margin: auto;
+  width: 39%;
+  padding: 12px 20px;
+  display: block;
 }
 
 form {
@@ -105,7 +118,18 @@ ul {
   #input-age-verification {
     padding: 15px;
   }
+
+  #input-checkbox {
+    transform: scale(2);
+  }
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 input.checkbox {
   transform: scale(2);
+}
