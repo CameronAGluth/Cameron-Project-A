@@ -12,6 +12,6 @@ function validate () {
   let x = document.forms["form"]["email"].value;
   console.log(x);
 
-  //18+
+  //21+
   // document.getElementById("age-verification")
 }
