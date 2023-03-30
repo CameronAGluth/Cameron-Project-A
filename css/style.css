@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Anton', Caribi;
   color: orange;
   text-align: center;
   display: block;
@@ -21,7 +21,7 @@ h2 {
 }
 
 .description {
-  font-family: Aerial, sans-serif;
+  font-family: Aerial, Times_New_Roman;
   font-size: 21px;
   color: ('222, 226, 13');
   text-align: center;
@@ -109,6 +109,7 @@ ul {
   #input-email {
     box-sizing: content-box;
     margin: auto;
+    width: 90%;
   }
 
   #input-employee-verification {
