@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src="script/main.js" async>
-  </script>
+  <script src="script/main.js" async></script>
   <meta charset="UTF-8">
   <title>Join us for our Annual Employee Party!</title>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -33,25 +32,28 @@
           <li>Must be 21 or older to participate</li>
         </ul>
       </section>
-    <form autocomplete="on" name="form" method="get" action="#null">
-      <ol>
-        <li id="input-email">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" pattern="^.+@.+$" required >
-        </li>
-        <li id="input-employee-verification">
-          <input type="checkbox" id="employee-verification" name="employee-verification" required >
-          <label for="employee-verification">I am an employee of Webmonitor LLC</label>
-        </li>
-        <li id="input-age-verification">
-          <input type="checkbox" id="age-verification" name="age-verification" value="21" required >
-          <label for="age-verification">I am over 21 years old</label>
-        </li>
-        <li id="input-submit">
-          <input type="submit" name="submit" id="submit" value="Join the party!" onsubmit="return validate()" >
-        </li>
-      </ol>
-    </form>
+
+      <section class="fillout">
+        <form autocomplete="on" name="form" method="get" action="#null">
+          <ol>
+            <li id="input-email">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" pattern="^.+@.+$" required >
+            </li>
+            <li id="input-employee-verification">
+              <input type="checkbox" id="employee-verification" name="employee-verification" required >
+              <label for="employee-verification">I am an employee of Webmonitor LLC</label>
+            </li>
+            <li id="input-age-verification">
+              <input type="checkbox" id="age-verification" name="age-verification" value="21" required >
+              <label for="age-verification">I am over 21 years old</label>
+            </li>
+            <li id="input-submit">
+              <input type="submit" name="submit" id="submit" value="Join the party!" onsubmit="return validate()" >
+            </li>
+          </ol>
+        </form>
+      </section>
   </body>
 
 </html>

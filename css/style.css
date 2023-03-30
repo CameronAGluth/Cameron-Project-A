@@ -23,7 +23,7 @@ h2 {
 .description {
   font-family: Aerial, sans-serif;
   font-size: 21px;
-  color: darkmagenta;
+  color: ('222, 226, 13');
   text-align: center;
   display: block;
   padding: 2em;
@@ -32,14 +32,14 @@ h2 {
 .notes {
   font-family: Aerial, sans-serif;
   font-size: 21px;
-  color: crimson;
+  color: lawngreen;
   text-align: left;
   list-style: circle;
   display: block;
   padding: 2em;
 }
 
-.image-party{
+.image-party {
   margin: auto;
   width: 200px;
   display: block;
@@ -58,7 +58,6 @@ h2 {
   box-sizing: content-box;
   width: auto;
 }
-
 
 #submit {
   font-size: 0.825em;
@@ -99,6 +98,7 @@ ul {
   list-style: circle;
 }
 
+/* mobile */
 @media screen and (min-width: 350px) {
   #input-submit {
     box-sizing: content-box;
@@ -121,6 +121,70 @@ ul {
 
   #input-checkbox {
     transform: scale(2);
+  }
+}
+
+/* old desktop */
+@media screen and (min-width: 800px) {
+  #input-submit {
+    box-sizing: content-box;
+    margin: auto;
+    width: 90%;
+  }
+
+  #input-email {
+    box-sizing: content-box;
+    margin: auto;
+  }
+
+  #input-employee-verification {
+    padding: 20px;
+  }
+
+  #input-age-verification {
+    padding: 20px;
+  }
+
+  #input-checkbox {
+    transform: scale(2);
+  }
+
+  .image-party {
+    margin: auto;
+    width: 300px;
+    display: block;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+  #input-submit {
+    box-sizing: content-box;
+    margin: auto;
+    width: 90%;
+  }
+
+  #input-email {
+    box-sizing: content-box;
+    margin: auto;
+  }
+
+  #input-employee-verification {
+    padding: 20px;
+  }
+
+  #input-age-verification {
+    padding: 20px;
+  }
+
+  #input-checkbox {
+    transform: scale(2);
+  }
+
+  .image-party {
+    margin: auto;
+    width: 400px;
+    display: block;
   }
 }
 
