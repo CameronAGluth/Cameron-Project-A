@@ -34,7 +34,7 @@
       </section>
 
       <section class="fillout">
-        <form autocomplete="on" name="form" method="get" action="#null">
+        <form autocomplete="on" onload="return verify()" name="form" method="get" action="#null">
           <ol>
             <li id="input-email">
               <label for="email">Email</label>
@@ -49,7 +49,7 @@
               <label for="age-verification">I am over 21 years old</label>
             </li>
             <li id="input-submit">
-              <input type="submit" name="submit" id="submit" value="Join the party!" onsubmit="return validate()" >
+              <input type="submit" name="submit" id="submit" value="Join the party!" onclick="verify();" >
             </li>
           </ol>
         </form>
