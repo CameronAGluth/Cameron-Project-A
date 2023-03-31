@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-  font-family: 'Anton', Caribi;
+  font-family: 'Anton', Calibri;
   color: orange;
   text-align: center;
   display: block;
@@ -23,16 +23,16 @@ h2 {
 .description {
   font-family: Aerial, Times_New_Roman;
   font-size: 21px;
-  color: ('222, 226, 13');
+  color: lawngreen;
   text-align: center;
   display: block;
   padding: 2em;
 }
 
 .notes {
-  font-family: Aerial, sans-serif;
+  font-family: Aerial, Helvetica;
   font-size: 21px;
-  color: lawngreen;
+  color: rgb(222, 226, 13);
   text-align: left;
   list-style: circle;
   display: block;
