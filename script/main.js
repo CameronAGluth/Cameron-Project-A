@@ -21,14 +21,15 @@
 
 console.log("Hello World!");
 function confirmation() {
-  var cbox = document.forms["form"]["employee-verification"]["age-verification"];
-  if (
-    cbox["employee-verification"].checked == false || cbox[1].checked == false) {
-    alert("Please make sure to check BOTH checkboxes.");
-    return false;
-  }
-  else {
+  var cBoxForm = document.forms["form"];
+  // var cEmployeeBox = document.forms["employee-verification"];
+  // var cAgeBox = document.forms["age-verification"];
+  // if (cEmployeeBox["employee-verification"].checked == false || cAgeBox["age-verification"].checked == false) {
+  //   alert("Please make sure to check BOTH checkboxes.");
+  //   return false;
+  // }
+  // else {
    alert("Thank you for submitting your waiver. We can't wait to see you at the employee party on June 12!");
    return true;
- }
+ // }
 }
