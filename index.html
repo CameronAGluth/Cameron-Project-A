@@ -17,8 +17,9 @@
         <h3>Activities include bowling, arcade games, air hockey, dancing on the dance floor, and more!</h3>
       </section>
 
-      <section>
+      <section class="hockey">
         <img class="image-party" src="img/party-time.png" alt="Party Time!">
+        <h3>This party also includes an air hockey tournament!</h3>
       </section>
 
       <section class="notes">
@@ -33,27 +34,26 @@
         </ul>
       </section>
 
-      <section class="fillout">
-        <form autocomplete="on" onload="return verify()" name="form" method="get" action="#null">
-          <ol>
-            <li id="input-email">
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" pattern="^.+@.+$" required >
-            </li>
-            <li id="input-employee-verification">
-              <input type="checkbox" id="employee-verification" name="employee-verification" required >
-              <label for="employee-verification">I am an employee of Webmonitor LLC</label>
-            </li>
-            <li id="input-age-verification">
-              <input type="checkbox" id="age-verification" name="age-verification" value="21" required >
-              <label for="age-verification">I am over 21 years old</label>
-            </li>
-            <li id="input-submit">
-              <input type="submit" name="submit" id="submit" value="Join the party!" onclick="verify();" >
-            </li>
-          </ol>
-        </form>
-      </section>
+    <form autocomplete="on" onload="return verify()" name="form" method="get" action="#null">
+      <ol>
+        <li id="input-email">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" pattern="^.+@.+$" required >
+        </li>
+        <li id="input-employee-verification">
+          <input type="checkbox" id="employee-verification" name="employee-verification" required >
+          <label for="employee-verification">I am an employee of Webmonitor LLC</label>
+        </li>
+        <li id="input-age-verification">
+          <input type="checkbox" id="age-verification" name="age-verification" value="21" required >
+          <label for="age-verification">I am over 21 years old</label>
+        </li>
+        <li id="input-submit">
+          <input type="submit" name="submit" id="submit" value="Join the party!" onclick="confirmation();" >
+        </li>
+      </ol>
+    </form>
+
   </body>
 
 </html>
